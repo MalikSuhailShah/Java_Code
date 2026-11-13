@@ -1,0 +1,19 @@
+package Loops;
+import java.util.Scanner;
+public class tableOf19 {
+    public static void main(String [] args){
+        Scanner sc=new Scanner(System.in);
+        for(int i=19;i<=190;i+=19){
+            System.out.println(i);
+        }
+        int y=sc.nextInt();
+
+        System.out.println("again table of "+y+" is:");
+        for(int i=19;i<=y;i+=19){
+            if(i%19==0){
+            System.out.println(i);
+        }
+    }
+
+    }
+}
